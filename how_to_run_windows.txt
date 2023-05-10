@@ -1,0 +1,11 @@
+# Create a virtual environment
+python -m venv <name_of_environment>
+
+# Activate the virtual environment
+<name_of_environment>\Scripts\activate.bat
+
+# Install the required libraries
+pip install -r requirements.txt
+
+# Run the code
+python clustering.py input_file output_file output_html
